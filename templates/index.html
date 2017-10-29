@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <form action="/score" enctype="multipart/form-data" method="post">
+        String1:<br>
+        <input type="text" name="string1"/><br>
+        String2:<br>
+        <input type="text" name="string2"/><br>
+        <input type="submit" value="Submit"/>
+    </form>
+
+{% endblock %}

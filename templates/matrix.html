@@ -1,0 +1,46 @@
+<table class="table table-sm">
+    <thead>
+        <!-- Print out the top bar to show columns -->
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <!-- Print the characters of string2 as a header to represent the columns -->
+            {% for char in s2 %}
+            <th>{{char}}</th>
+            {% endfor %}
+        </tr>
+
+        <!-- In a second row show the integer positions of the columns -->
+        <tr>
+            <th></th>
+            <th></th>
+            {% for col in range(matrix[0]|length) %}
+            <th>{{col}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+
+    <tbody>
+        <!-- Fill out the table -->
+        {% for row in range(matrix|length) %}
+        <tr>
+            <!-- Correctly display the characters of string1 -->
+            {% if row == 0 %}
+                <th></th>
+            {% else %}
+                <th>{{s1[row - 1]}}</th>
+            {% endif %}
+
+            <!-- Add the row number -->
+            <th>{{row}}</th>
+
+            <!-- Fill in the data -->
+            {% for col in range(matrix[0]|length) %}
+            <td>{{matrix[row][col][0]}}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+
+    </tbody>
+</table>
