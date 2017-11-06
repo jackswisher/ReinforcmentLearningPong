@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead align="left">
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>Transacted</th>
+            </tr>
+        </thead>
+        <tbody align="left">
+            {% for row in transactions %}
+            <tr>
+                <td>{{ row.get("symbol") }}</td>
+                <td>{{ row.get("quantity") }}</td>
+                <td>{{ row.get("price")|usd }}</td>
+                <td>{{ row.get("time") }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
