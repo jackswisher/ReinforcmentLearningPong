@@ -1,0 +1,115 @@
+***
+Full Name (as it should appear on name tags)
+***
+
+     Jack Swisher
+
+***
+Email
+***
+
+     jswisher@college.harvard.edu
+
+***
+In which course are you enrolled?
+***
+
+     COMPSCI 50 at Harvard
+
+***
+If you plan to collaborate with 1 or 2 classmates for the final project, provided their Harvard or Yale email addresses here (or the addresses with which they registered for the course).  Be sure they're correct! - First collaborator's email address, if any
+***
+
+     falkhaja@college.harvard.edu
+
+***
+If you plan to collaborate with 1 or 2 classmates for the final project, provided their Harvard or Yale email addresses here (or the addresses with which they registered for the course).  Be sure they're correct! - Second collaborator's email address, if any
+***
+
+     BLANK
+
+***
+Under which "track" does your project fall, per the spec? - Selected Choice
+***
+
+     Software Track
+
+***
+Under which "track" does your project fall, per the spec? - Other: - Text
+***
+
+     BLANK
+
+***
+With which other course are you proposing to combine final projects, and which aspect(s) of your proposed project would relate to CS50, and which aspect(s) would relate to the other course?
+***
+
+     BLANK
+
+***
+Into which categories does your project fall?
+***
+
+     Game,Tool
+
+***
+Which language(s) will you use for your project?
+***
+
+     Python
+
+***
+What will (likely) be the title of your project?
+***
+
+     Neural Networks and Game AI
+
+***
+In just a sentence or two, summarize your project.  (E.g., "A website that lets you buy and sell stocks.")
+***
+
+     We aim to use a neural network to serve as an AI CPU given sufficient time to learn. We will probably implement pong using a recurrent learning, Deep Q Network.
+
+***
+So that everyone can delight in each other's choice of projects, we may post everyone's name, title, summary, and type of project / language(s) on the course's website. If you would like to be excluded from that list, though, you may opt out.
+***
+
+     BLANK
+
+***
+Where will your project ultimately live? - Selected Choice
+***
+
+     not sure yet
+
+***
+Where will your project ultimately live? - other - Text
+***
+
+     BLANK
+
+***
+In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+***
+
+     Our software will control the game, likely Pong, as well as the two AIs. One will be a basic AI that moves up and down based on the position of the ball while the other starts off not knowing how to play and "learns" through repeated back-propagation based on the outcome of each of the games. For instance, if the AI hits the ball it will receive a score of one which will cause the actions that led to that outcome to be encouraged and weighted to occur more often while actions that lead to a negative score will be discourage and weighted accordingly. It will likely use TensorFlow to handle the neural network, however we might just use NumPy instead if we decide to use a less complex neural network. The current plan is to use a five layer neural network; we might change this based on what is most effective.
+
+***
+In the world of software, most everything takes longer to implement than you expect.  And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+In a sentence (or list of features), define a GOOD outcome for your final project.  I.e., what WILL you accomplish no matter what?
+***
+
+     A good outcome would be a working neural network that is able to train the AI to improve, but might not be fully functional in the sense that it does not defeat the other CPU. We will acquire a deeper understanding and appreciation for machine learning no matter the final outcome of our project.
+
+***
+In a sentence (or list of features), define a BETTER outcome for your final project.  I.e., what do you THINK you can accomplish before the final project's deadline?
+***
+
+     A better outcome would be an AI that is capable of beating the other, generic CPU some of the time and might need a new structure or better optimization to really achieve peak efficiency.
+
+***
+In a sentence (or list of features), define a BEST outcome for your final project.  I.e., what do you HOPE to accomplish before the final project's deadline?
+***
+
+     The best outcome would be a working, optimized neural network that is able to beat the CPU and optimize its playing style given sufficient training time.
+
