@@ -4,7 +4,7 @@ IMPORTANT NOTE: NOT MEANT TO BE RUN ON IDE (IDE does not have a video device)
 
 VIDEO LINK: https://youtu.be/Rs1_vVvQ4P0
 
-The purpose of Pong is to hit the ball and make it go past your opponents paddle without letting the ball go past your paddle. Our project implements a five hidden layer deep neural network that uses Deep Q Learning to play Pong. For more information on how it works, refer to DESIGN.md.
+The purpose of Pong is to hit the ball and get the ball past your opponent's paddle without letting the ball past your own. Our project implements a five hidden layer deep neural network that uses Deep Q Learning to play Pong. For more information on how it works, refer to DESIGN.md.
 
 REQUIRED PACKAGES TO INSTALL
 pygame
